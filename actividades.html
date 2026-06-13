@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galería de actividades, convenciones y retiros de las Asambleas de Dios Guinea Ecuatorial.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <title>Actividades — Asambleas de Dios G.E.</title>
+</head>
+<body>
+
+<!-- ═══════════════ BARRA SUPERIOR ═══════════════ -->
+<div class="barra-superior" id="barra-superior">
+    <div class="contenedor barra-superior__inner">
+        <div class="barra-superior__izquierda">
+            <a href="index.html" class="barra-superior__home" aria-label="Inicio"><i class="fas fa-home"></i></a>
+            <span class="barra-superior__bienvenida">Bienvenido a Asambleas de Dios G.E</span>
+        </div>
+    </div>
+</div>
+
+<!-- ═══════════════ HEADER PRINCIPAL ═══════════════ -->
+<header class="header" id="header-principal">
+    <div class="header__logo-area">
+        <div class="contenedor">
+            <a href="index.html" class="header__brand">
+                <img src="img/images (2).jpg" alt="Logo" class="header__logo-img">
+                <div class="header__titulo-grupo">
+                    <h1 class="header__titulo">Asambleas de Dios</h1>
+                    <span class="header__subtitulo">Guinea Ecuatorial</span>
+                </div>
+                <img src="img/bandera.png" alt="Bandera" class="header__bandera">
+            </a>
+        </div>
+    </div>
+
+        <!-- Navegación Principal -->
+    <nav class="nav" id="navegacion-principal">
+        <div class="contenedor nav__inner">
+            <button class="nav__hamburguesa" id="btn-hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav__lista" id="nav-lista">
+                <li class="nav__item nav__item--mega">
+                    <a href="organizacion.html" class="nav__link" id="nav-link-org">Organización <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="organizacion.html" class="heading-link">La Organización <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="organizacion.html#que-es">¿Qué es Asambleas de Dios?</a></li>
+                                <li><a href="organizacion.html#historia">Nuestra Historia</a></li>
+                                <li><a href="organizacion.html#mision-vision">Misión y Visión</a></li>
+                                <li><a href="organizacion.html#valores">Valores</a></li>
+                                <li><a href="organizacion.html#fe">Declaración de Fe</a></li>
+                                <li><a href="organizacion.html#alcances">Alcances en Guinea Ecuatorial</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="estructura.html" class="heading-link">Estructura <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="estructura.html#junta-directiva">Junta Directiva</a></li>
+                                <li><a href="estructura.html#departamentos">Departamentos</a></li>
+                                <li><a href="estructura.html#distritos">Distritos y Regiones</a></li>
+                                <li><a href="iglesias.html">Iglesias Locales</a></li>
+                                <li><a href="estructura.html#misioneros">Misioneros</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                    <a href="presbiterio.html" class="nav__link" id="nav-link-presb">Presbiterio Ejecutivo <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="presbiterio.html#carpoforo">Carpóforo Ochaga Elá</a></li>
+                        <li><a href="presbiterio.html#segismundo">Segismundo Sam</a></li>
+                        <li><a href="presbiterio.html#vicente">Pastor Vicente</a></li>
+                        <li><a href="presbiterio.html#tesoreria">Tesorera Nacional</a></li>
+                        <li><a href="presbiterio.html#vocales">Vocal I</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item"><a href="iglesias.html" class="nav__link" id="nav-link-igles">Nuestros Pastores</a></li>
+                <li class="nav__item"><a href="actividades.html" class="nav__link" id="nav-link-activ">Actividades</a></li>
+                <li class="nav__item"><a href="noticias-eventos.html" class="nav__link" id="nav-link-notic">Noticias y Eventos</a></li>
+                <li class="nav__item"><a href="necesidades-ayudas.html" class="nav__link" id="nav-link-neces">Necesidades y Ayudas</a></li>
+                <li class="nav__item"><a href="contactos.html" class="nav__link" id="nav-link-conta">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- ═══════════════ HERO INTERNO ═══════════════ -->
+<section class="hero-interno" style="background: linear-gradient(135deg, var(--gold) 0%, var(--navy) 100%);">
+    <div class="hero-interno__overlay"></div>
+    <div class="contenedor hero-interno__content animado" data-animacion="fade-up">
+        <h1 class="hero-interno__titulo">Nuestras Actividades</h1>
+        <p class="hero-interno__subtitulo">Explora los momentos más impactantes de nuestros retiros, convenciones, campañas evangelísticas y servicios especiales a través de videos e imágenes.</p>
+    </div>
+</section>
+
+<!-- ═══════════════ GALERÍA DE VIDEOS ═══════════════ -->
+<section style="padding: var(--space-3xl) 0; background: var(--off-white);">
+    <div class="contenedor">
+        <div class="seccion-header animado" data-animacion="fade-up">
+            <span class="seccion-header__etiqueta">Videos</span>
+            <h2 class="seccion-header__titulo">Momentos en Video</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-lg);">
+            
+            <div class="video-card animado" data-animacion="fade-up" style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                <div class="video-thumbnail" style="position: relative; padding-top: 56.25%; background: var(--navy); cursor: pointer;" onclick="abrirModalVideo('https://www.youtube.com/embed/ejemplo1')">
+                    <img src="img/images (1).jpg" alt="Actividad" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                    <i class="fas fa-play-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 56px; color: var(--white); text-shadow: 0 2px 10px rgba(0,0,0,0.5);"></i>
+                </div>
+                <div style="padding: var(--space-lg);">
+                    <h3 style="font-size: 18px; color: var(--navy); margin-bottom: 8px;">Retiro Nacional de Mujeres 2024</h3>
+                    <p style="font-size: 14px; color: var(--gray-600);">Resumen del poderoso tiempo de ministración, adoración y hermandad en el reciente retiro femenil en la provincia de Wele-Nzas.</p>
+                </div>
+            </div>
+
+            <div class="video-card animado" data-animacion="fade-up" style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                <div class="video-thumbnail" style="position: relative; padding-top: 56.25%; background: var(--navy); cursor: pointer;" onclick="abrirModalVideo('https://www.youtube.com/embed/ejemplo2')">
+                    <img src="img/images (2).jpg" alt="Actividad" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                    <i class="fas fa-play-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 56px; color: var(--white); text-shadow: 0 2px 10px rgba(0,0,0,0.5);"></i>
+                </div>
+                <div style="padding: var(--space-lg);">
+                    <h3 style="font-size: 18px; color: var(--navy); margin-bottom: 8px;">Campaña Evangelística Bata</h3>
+                    <p style="font-size: 14px; color: var(--gray-600);">Miles de personas aceptaron a Cristo durante la última campaña evangelística a cielo abierto en el Estadio la Libertad de Bata.</p>
+                </div>
+            </div>
+
+            <div class="video-card animado" data-animacion="fade-up" style="background: var(--white); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm);">
+                <div class="video-thumbnail" style="position: relative; padding-top: 56.25%; background: var(--navy); cursor: pointer;" onclick="abrirModalVideo('https://www.youtube.com/embed/ejemplo3')">
+                    <img src="img/images (1).jpg" alt="Actividad" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.8;">
+                    <i class="fas fa-play-circle" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 56px; color: var(--white); text-shadow: 0 2px 10px rgba(0,0,0,0.5);"></i>
+                </div>
+                <div style="padding: var(--space-lg);">
+                    <h3 style="font-size: 18px; color: var(--navy); margin-bottom: 8px;">Danza y Adoración Jóvenes</h3>
+                    <p style="font-size: 14px; color: var(--gray-600);">Presentación especial del grupo de danza y artes creativas de la Iglesia Jerusalén de Ela-Nguema.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ═══════════════ GALERÍA DE IMÁGENES ═══════════════ -->
+<section style="padding: var(--space-3xl) 0; background: var(--white);">
+    <div class="contenedor">
+        <div class="seccion-header animado" data-animacion="fade-up">
+            <span class="seccion-header__etiqueta">Fotografías</span>
+            <h2 class="seccion-header__titulo">Galería Fotográfica</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px;">
+            <div class="img-wrap animado" data-animacion="fade-up" style="height: 250px; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                <img src="img/images (1).jpg" alt="Foto 1" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+            <div class="img-wrap animado" data-animacion="fade-up" style="height: 250px; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                <img src="img/images (2).jpg" alt="Foto 2" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+            <div class="img-wrap animado" data-animacion="fade-up" style="height: 250px; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                <img src="img/images (1).jpg" alt="Foto 3" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+            <div class="img-wrap animado" data-animacion="fade-up" style="height: 250px; overflow: hidden; border-radius: var(--radius-md); box-shadow: var(--shadow-sm);">
+                <img src="img/images (2).jpg" alt="Foto 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal para Video (Reutilizado) -->
+<div id="video-modal" class="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9999; justify-content: center; align-items: center;">
+    <span class="modal-close" onclick="cerrarModalVideo()" style="position: absolute; top: 20px; right: 30px; font-size: 40px; color: white; cursor: pointer;">&times;</span>
+    <div style="width: 90%; max-width: 800px; position: relative; padding-top: 50.625%;">
+        <!-- El iframe se inyecta por JS -->
+        <iframe id="video-iframe" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer" id="footer">
+    <!-- ... -->
+    <div class="contenedor">
+        <div class="footer__bottom">
+            <p>&copy; 2025 Asambleas de Dios Guinea Ecuatorial. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+    // Lógica para el modal de video
+    const modal = document.getElementById('video-modal');
+    const iframe = document.getElementById('video-iframe');
+
+    function abrirModalVideo(url) {
+        // En producción reemplazar con la URL real, ahora usamos un placeholder
+        iframe.src = 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1'; 
+        modal.style.display = 'flex';
+    }
+
+    function cerrarModalVideo() {
+        modal.style.display = 'none';
+        iframe.src = ''; // Detener video
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            cerrarModalVideo();
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directorio de Iglesias Locales — Asambleas de Dios Guinea Ecuatorial. Encuentra tu iglesia más cercana.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <title>Iglesias Locales — Asambleas de Dios G.E.</title>
+</head>
+<body>
+
+<!-- ═══════════════ BARRA SUPERIOR ═══════════════ -->
+<div class="barra-superior" id="barra-superior">
+    <div class="contenedor barra-superior__inner">
+        <div class="barra-superior__izquierda">
+            <a href="index.html" class="barra-superior__home" aria-label="Inicio">
+                <i class="fas fa-home"></i>
+            </a>
+            <span class="barra-superior__bienvenida">Bienvenido a Asambleas de Dios G.E</span>
+        </div>
+        <nav class="barra-superior__idiomas" aria-label="Selector de idioma">
+            <a href="#" class="barra-superior__idioma activo">Español</a>
+            <a href="#" class="barra-superior__idioma">Français</a>
+            <a href="#" class="barra-superior__idioma">English</a>
+            <a href="#" class="barra-superior__idioma">العربية</a>
+            <a href="#" class="barra-superior__idioma">中文</a>
+        </nav>
+    </div>
+</div>
+
+<!-- ═══════════════ HEADER PRINCIPAL ═══════════════ -->
+<header class="header" id="header-principal">
+    <div class="header__logo-area">
+        <div class="contenedor">
+            <a href="index.html" class="header__brand">
+                <img src="img/images (2).jpg" alt="Logo Asambleas de Dios" class="header__logo-img">
+                <div class="header__titulo-grupo">
+                    <h1 class="header__titulo">Asambleas de Dios</h1>
+                    <span class="header__subtitulo">Guinea Ecuatorial</span>
+                </div>
+                <img src="img/bandera.png" alt="Bandera de Guinea Ecuatorial" class="header__bandera">
+            </a>
+        </div>
+    </div>
+
+        <!-- Navegación Principal -->
+    <nav class="nav" id="navegacion-principal">
+        <div class="contenedor nav__inner">
+            <button class="nav__hamburguesa" id="btn-hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav__lista" id="nav-lista">
+                <li class="nav__item nav__item--mega">
+                    <a href="organizacion.html" class="nav__link" id="nav-link-org">Organización <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="organizacion.html" class="heading-link">La Organización <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="organizacion.html#que-es">¿Qué es Asambleas de Dios?</a></li>
+                                <li><a href="organizacion.html#historia">Nuestra Historia</a></li>
+                                <li><a href="organizacion.html#mision-vision">Misión y Visión</a></li>
+                                <li><a href="organizacion.html#valores">Valores</a></li>
+                                <li><a href="organizacion.html#fe">Declaración de Fe</a></li>
+                                <li><a href="organizacion.html#alcances">Alcances en Guinea Ecuatorial</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="estructura.html" class="heading-link">Estructura <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="estructura.html#junta-directiva">Junta Directiva</a></li>
+                                <li><a href="estructura.html#departamentos">Departamentos</a></li>
+                                <li><a href="estructura.html#distritos">Distritos y Regiones</a></li>
+                                <li><a href="iglesias.html">Iglesias Locales</a></li>
+                                <li><a href="estructura.html#misioneros">Misioneros</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                    <a href="presbiterio.html" class="nav__link" id="nav-link-presb">Presbiterio Ejecutivo <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="presbiterio.html#carpoforo">Carpóforo Ochaga Elá</a></li>
+                        <li><a href="presbiterio.html#segismundo">Segismundo Sam</a></li>
+                        <li><a href="presbiterio.html#vicente">Pastor Vicente</a></li>
+                        <li><a href="presbiterio.html#tesoreria">Tesorera Nacional</a></li>
+                        <li><a href="presbiterio.html#vocales">Vocal I</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item"><a href="iglesias.html" class="nav__link" id="nav-link-igles">Nuestros Pastores</a></li>
+                <li class="nav__item"><a href="actividades.html" class="nav__link" id="nav-link-activ">Actividades</a></li>
+                <li class="nav__item"><a href="noticias-eventos.html" class="nav__link" id="nav-link-notic">Noticias y Eventos</a></li>
+                <li class="nav__item"><a href="necesidades-ayudas.html" class="nav__link" id="nav-link-neces">Necesidades y Ayudas</a></li>
+                <li class="nav__item"><a href="contactos.html" class="nav__link" id="nav-link-conta">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- ═══════════════ HERO INTERNO ═══════════════ -->
+<section class="hero-interno" style="background: linear-gradient(135deg, var(--blue-accent) 0%, var(--navy) 100%);">
+    <div class="hero-interno__overlay"></div>
+    <div class="contenedor hero-interno__content animado" data-animacion="fade-up">
+        <h1 class="hero-interno__titulo">Iglesias Locales</h1>
+        <p class="hero-interno__subtitulo">Encuentra una congregación cerca de ti. Explora los horarios, departamentos y pastores encargados en cada distrito.</p>
+    </div>
+</section>
+
+<!-- ═══════════════ DIRECTORIO ═══════════════ -->
+<main class="directorio-page" style="padding: var(--space-3xl) 0; background: var(--off-white);">
+    <div class="contenedor">
+        
+        <!-- Filtros y Búsqueda -->
+        <div class="directorio-filtros animado" data-animacion="fade-up" style="background: var(--white); padding: var(--space-lg); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); border: 1px solid var(--gray-200); margin-bottom: var(--space-2xl);">
+            <div style="display: grid; grid-template-columns: 1fr 1fr auto; gap: var(--space-md); align-items: end;">
+                <div class="form-grupo" style="margin-bottom: 0;">
+                    <label class="form-label">Buscar Iglesia o Pastor</label>
+                    <input type="text" class="form-input" id="search-iglesia" placeholder="Ej: Iglesia Central, Rev. Carpóforo...">
+                </div>
+                <div class="form-grupo" style="margin-bottom: 0;">
+                    <label class="form-label">Filtrar por Distrito</label>
+                    <select class="form-input" id="filter-distrito">
+                        <option value="todos">Todos los Distritos</option>
+                        <option value="bioko-norte">Bioko Norte</option>
+                        <option value="litoral">Litoral</option>
+                        <option value="wele-nzas">Wele-Nzas</option>
+                        <option value="kie-ntem">Kie-Ntem</option>
+                        <option value="centro-sur">Centro Sur</option>
+                        <option value="insular">Insular</option>
+                    </select>
+                </div>
+                <button class="form-btn" style="width: auto;"><i class="fas fa-search"></i> Buscar</button>
+            </div>
+        </div>
+
+        <!-- Grid de Iglesias -->
+        <div class="iglesias__grid" id="iglesias-grid">
+            <div class="loading-message" style="grid-column: 1 / -1; text-align: center; padding: 2rem;">
+                <i class="fas fa-spinner fa-spin fa-2x"></i>
+                <p>Cargando iglesias...</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer" id="footer">
+    <div class="contenedor">
+        <!-- Footer content... -->
+        <div class="footer__bottom">
+            <p>&copy; 2025 Asambleas de Dios Guinea Ecuatorial. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        const grid = document.getElementById('iglesias-grid');
+        const inputSearch = document.getElementById('search-iglesia');
+        const selectDistrito = document.getElementById('filter-distrito');
+        let todasLasIglesias = [];
+
+        // 1. Fetch Iglesias from API
+        try {
+            const response = await fetch('http://localhost:3000/api/iglesias');
+            todasLasIglesias = await response.json();
+            renderIglesias(todasLasIglesias);
+        } catch (error) {
+            console.error('Error fetching iglesias:', error);
+            grid.innerHTML = '<div style="grid-column: 1 / -1; text-align: center; color: red;">Error al cargar las iglesias. Asegúrese de que el servidor esté funcionando.</div>';
+        }
+
+        // 2. Render Function
+        function renderIglesias(iglesiasArray) {
+            grid.innerHTML = '';
+            if (iglesiasArray.length === 0) {
+                grid.innerHTML = '<div style="grid-column: 1 / -1; text-align: center;">No se encontraron iglesias.</div>';
+                return;
+            }
+
+            iglesiasArray.forEach(iglesia => {
+                // Obtener nombres de pastores (si la relación incluye Pastors array)
+                let pastoresStr = 'Sin pastor asignado';
+                if (iglesia.Pastors && iglesia.Pastors.length > 0) {
+                    pastoresStr = iglesia.Pastors.map(p => p.fullName || p.nombre_completo || 'Pastor').join(', ');
+                }
+
+                const article = document.createElement('article');
+                article.className = 'iglesia-card animado visible';
+                article.setAttribute('data-distrito', (iglesia.district || '').toLowerCase().replace(/\s+/g, '-'));
+                article.innerHTML = `
+                    <div class="iglesia-card__header">
+                        <h3>${iglesia.name}</h3>
+                        <span class="iglesia-card__distrito">Distrito ${iglesia.district || 'N/A'}</span>
+                    </div>
+                    <div class="iglesia-card__body">
+                        <p><i class="fas fa-user-tie"></i> <strong>Pastor:</strong> ${pastoresStr}</p>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> ${iglesia.location || 'N/A'}</p>
+                        <div class="iglesia-card__horarios">
+                            <strong><i class="fas fa-clock"></i> Cultos Principales:</strong>
+                            <p style="white-space: pre-line; margin-top: 5px;">${iglesia.schedule || 'No especificados'}</p>
+                        </div>
+                        <div class="iglesia-card__horarios">
+                            <strong><i class="fas fa-users"></i> Departamentos:</strong>
+                            <p style="white-space: pre-line; margin-top: 5px;">${iglesia.departments || 'No especificados'}</p>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(article);
+            });
+        }
+
+        // 3. Filter Function
+        function filtrar() {
+            const query = inputSearch.value.toLowerCase();
+            const distrito = selectDistrito.value;
+
+            const filtradas = todasLasIglesias.filter(iglesia => {
+                const text = JSON.stringify(iglesia).toLowerCase();
+                const cardDistrito = (iglesia.district || '').toLowerCase().replace(/\s+/g, '-');
+
+                const matchText = text.includes(query);
+                const matchDistrito = (distrito === 'todos') || (cardDistrito === distrito);
+
+                return matchText && matchDistrito;
+            });
+
+            renderIglesias(filtradas);
+        }
+
+        if(inputSearch) inputSearch.addEventListener('input', filtrar);
+        if(selectDistrito) selectDistrito.addEventListener('change', filtrar);
+    });
+</script>
+</body>
+</html>

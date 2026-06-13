@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estructura de las Asambleas de Dios Guinea Ecuatorial. Junta directiva, departamentos, distritos y misioneros.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <title>Estructura — Asambleas de Dios G.E.</title>
+</head>
+<body>
+
+<!-- ═══════════════ BARRA SUPERIOR ═══════════════ -->
+<div class="barra-superior" id="barra-superior">
+    <div class="contenedor barra-superior__inner">
+        <div class="barra-superior__izquierda">
+            <a href="index.html" class="barra-superior__home" aria-label="Inicio">
+                <i class="fas fa-home"></i>
+            </a>
+            <span class="barra-superior__bienvenida">Bienvenido a Asambleas de Dios G.E</span>
+        </div>
+        <nav class="barra-superior__idiomas" aria-label="Selector de idioma">
+            <a href="#" class="barra-superior__idioma activo">Español</a>
+            <a href="#" class="barra-superior__idioma">Français</a>
+            <a href="#" class="barra-superior__idioma">English</a>
+            <a href="#" class="barra-superior__idioma">العربية</a>
+            <a href="#" class="barra-superior__idioma">中文</a>
+        </nav>
+    </div>
+</div>
+
+<!-- ═══════════════ HEADER PRINCIPAL ═══════════════ -->
+<header class="header" id="header-principal">
+    <div class="header__logo-area">
+        <div class="contenedor">
+            <a href="index.html" class="header__brand">
+                <img src="img/images (2).jpg" alt="Logo Asambleas de Dios" class="header__logo-img">
+                <div class="header__titulo-grupo">
+                    <h1 class="header__titulo">Asambleas de Dios</h1>
+                    <span class="header__subtitulo">Guinea Ecuatorial</span>
+                </div>
+                <img src="img/bandera.png" alt="Bandera de Guinea Ecuatorial" class="header__bandera">
+            </a>
+        </div>
+    </div>
+
+        <!-- Navegación Principal -->
+    <nav class="nav" id="navegacion-principal">
+        <div class="contenedor nav__inner">
+            <button class="nav__hamburguesa" id="btn-hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav__lista" id="nav-lista">
+                <li class="nav__item nav__item--mega">
+                    <a href="organizacion.html" class="nav__link" id="nav-link-org">Organización <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="organizacion.html" class="heading-link">La Organización <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="organizacion.html#que-es">¿Qué es Asambleas de Dios?</a></li>
+                                <li><a href="organizacion.html#historia">Nuestra Historia</a></li>
+                                <li><a href="organizacion.html#mision-vision">Misión y Visión</a></li>
+                                <li><a href="organizacion.html#valores">Valores</a></li>
+                                <li><a href="organizacion.html#fe">Declaración de Fe</a></li>
+                                <li><a href="organizacion.html#alcances">Alcances en Guinea Ecuatorial</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu__col">
+                            <h4 class="mega-menu__heading"><a href="estructura.html" class="heading-link">Estructura <i class="fas fa-arrow-right"></i></a></h4>
+                            <ul>
+                                <li><a href="estructura.html#junta-directiva">Junta Directiva</a></li>
+                                <li><a href="estructura.html#departamentos">Departamentos</a></li>
+                                <li><a href="estructura.html#distritos">Distritos y Regiones</a></li>
+                                <li><a href="iglesias.html">Iglesias Locales</a></li>
+                                <li><a href="estructura.html#misioneros">Misioneros</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav__item nav__item--dropdown">
+                    <a href="presbiterio.html" class="nav__link" id="nav-link-presb">Presbiterio Ejecutivo <i class="fas fa-chevron-down nav__arrow"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="presbiterio.html#carpoforo">Carpóforo Ochaga Elá</a></li>
+                        <li><a href="presbiterio.html#segismundo">Segismundo Sam</a></li>
+                        <li><a href="presbiterio.html#vicente">Pastor Vicente</a></li>
+                        <li><a href="presbiterio.html#tesoreria">Tesorera Nacional</a></li>
+                        <li><a href="presbiterio.html#vocales">Vocal I</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav__item"><a href="iglesias.html" class="nav__link" id="nav-link-igles">Nuestros Pastores</a></li>
+                <li class="nav__item"><a href="actividades.html" class="nav__link" id="nav-link-activ">Actividades</a></li>
+                <li class="nav__item"><a href="noticias-eventos.html" class="nav__link" id="nav-link-notic">Noticias y Eventos</a></li>
+                <li class="nav__item"><a href="necesidades-ayudas.html" class="nav__link" id="nav-link-neces">Necesidades y Ayudas</a></li>
+                <li class="nav__item"><a href="contactos.html" class="nav__link" id="nav-link-conta">Contactos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- ═══════════════ HERO INTERNO ═══════════════ -->
+<section class="hero-interno">
+    <div class="hero-interno__overlay"></div>
+    <div class="contenedor hero-interno__content animado" data-animacion="fade-up">
+        <h1 class="hero-interno__titulo">Nuestra Estructura</h1>
+        <p class="hero-interno__subtitulo">Descubre cómo estamos organizados nacionalmente, nuestros departamentos de servicio y divisiones territoriales.</p>
+    </div>
+</section>
+
+<!-- ═══════════════ CONTENIDO PRINCIPAL ═══════════════ -->
+<main class="pagina-gigante">
+    <div class="contenedor pagina-gigante__layout">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="pagina-gigante__sidebar animado" data-animacion="fade-right">
+            <nav class="sidebar-nav">
+                <h3 class="sidebar-nav__titulo">Índice Estructural</h3>
+                <ul class="sidebar-nav__lista">
+                    <li><a href="#junta-directiva" class="activo">Junta Directiva</a></li>
+                    <li><a href="#departamentos">Departamentos</a></li>
+                    <li><a href="#distritos">Distritos y Regiones</a></li>
+                    <li><a href="#misioneros">Misioneros</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <article class="pagina-gigante__content animado" data-animacion="fade-left">
+            
+            <section id="junta-directiva" class="content-section">
+                <h2>Junta Directiva Nacional</h2>
+                <p>La dirección nacional de nuestra organización está a cargo de hombres y mujeres elegidos por su testimonio, madurez espiritual y capacidad administrativa. La Junta Directiva supervisa y vela por el buen funcionamiento de todas las iglesias y departamentos a nivel nacional.</p>
+                <p><a href="presbiterio.html" class="enlace-texto">Conoce a los miembros del Presbiterio Ejecutivo aquí <i class="fas fa-arrow-right"></i></a></p>
+            </section>
+
+            <section id="departamentos" class="content-section">
+                <h2>Departamentos de Servicio</h2>
+                <p>Para un mejor desarrollo de la obra, la organización está estructurada en diversos departamentos especializados que atienden diferentes áreas de crecimiento y alcance:</p>
+                <div class="departamentos-grid">
+                    <div class="dept-card"><h3>Misiones y Evangelismo</h3></div>
+                    <div class="dept-card"><h3>Educación Cristiana</h3></div>
+                    <div class="dept-card"><h3>Ministerio de Jóvenes</h3></div>
+                    <div class="dept-card"><h3>Ministerio de Mujeres (Femenil)</h3></div>
+                    <div class="dept-card"><h3>Ministerio Infantil</h3></div>
+                    <div class="dept-card"><h3>Obra Social y Ayuda</h3></div>
+                </div>
+            </section>
+
+            <section id="distritos" class="content-section">
+                <h2>Distritos y Regiones</h2>
+                <p>Nuestra organización está dividida geográficamente en distritos para una mejor administración y atención pastoral. Cada distrito está dirigido por un Presbítero de Distrito.</p>
+                <ul class="lista-simple">
+                    <li><strong>Distrito Bioko Norte:</strong> Malabo y alrededores.</li>
+                    <li><strong>Distrito Litoral:</strong> Bata, Mbini, Cogo.</li>
+                    <li><strong>Distrito Centro Sur:</strong> Evinayong, Niefang, Akurenam.</li>
+                    <li><strong>Distrito Wele-Nzas:</strong> Mongomo, Añisok, Nsork, Aconibe.</li>
+                    <li><strong>Distrito Kie-Ntem:</strong> Ebebiyin, Micomeseng, Nsang.</li>
+                    <li><strong>Distrito Insular:</strong> Annobón, Corisco.</li>
+                </ul>
+                <p style="margin-top: 15px;"><a href="iglesias.html" class="hero__btn" style="box-shadow: none; display: inline-block; padding: 10px 20px;">Ver Iglesias por Distrito</a></p>
+            </section>
+
+            <section id="misioneros" class="content-section">
+                <h2>Misioneros Nacionales e Internacionales</h2>
+                <p>La Gran Comisión nos impulsa no solo a recibir, sino también a enviar. Apoyamos a misioneros locales y extranjeros que han dedicado sus vidas a plantar iglesias y fortalecer la obra en zonas de difícil acceso, tanto dentro como fuera de nuestras fronteras.</p>
+                <div class="info-box">
+                    <i class="fas fa-globe-africa"></i>
+                    <p>"Rogad, pues, al Señor de la mies, que envíe obreros a su mies." - Mateo 9:38</p>
+                </div>
+            </section>
+
+        </article>
+    </div>
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="footer" id="footer">
+    <div class="contenedor">
+        <div class="footer__grid">
+            <div class="footer__col">
+                <div class="footer__brand">
+                    <img src="img/images (1).jpg" alt="Logo AD" class="footer__logo">
+                    <div>
+                        <h3 class="footer__nombre">Asambleas de Dios</h3>
+                        <p class="footer__pais">Guinea Ecuatorial</p>
+                    </div>
+                </div>
+                <p class="footer__lema">"Evangelio pleno a todas las naciones"</p>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Enlaces</h4>
+                <ul class="footer__links">
+                    <li><a href="organizacion.html#historia">Nuestra Historia</a></li>
+                    <li><a href="organizacion.html#mision-vision">Misión y Visión</a></li>
+                    <li><a href="iglesias.html">Iglesias Locales</a></li>
+                    <li><a href="noticias-eventos.html">Noticias</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Ministerios</h4>
+                <ul class="footer__links">
+                    <li><a href="estructura.html#departamentos">Jóvenes</a></li>
+                    <li><a href="estructura.html#departamentos">Mujeres</a></li>
+                    <li><a href="estructura.html#departamentos">Niños</a></li>
+                    <li><a href="estructura.html#departamentos">Misiones</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__heading">Síguenos</h4>
+                <div class="footer__social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2025 Asambleas de Dios Guinea Ecuatorial. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+    // JS Específico para la navegación lateral
+    document.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('.content-section');
+        const navLinks = document.querySelectorAll('.sidebar-nav__lista a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 120) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('activo');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('activo');
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

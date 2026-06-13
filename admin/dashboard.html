@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | A/D G.E.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-dashboard-body">
+    <div class="dashboard-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3>A/D Admin</h3>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="active" data-target="panel-inicio"><i class="fa-solid fa-house"></i> Inicio</li>
+                <li data-target="panel-iglesias"><i class="fa-solid fa-church"></i> Iglesias</li>
+                <li data-target="panel-pastores"><i class="fa-solid fa-user-tie"></i> Pastores</li>
+                <li data-target="panel-noticias"><i class="fa-solid fa-newspaper"></i> Noticias</li>
+                <li data-target="panel-solicitudes"><i class="fa-solid fa-hand-holding-heart"></i> Solicitudes Ayuda</li>
+                <li data-target="panel-contactos"><i class="fa-solid fa-envelope"></i> Mensajes Contacto</li>
+                <li class="logout-btn" id="logoutBtn"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="topbar">
+                <div class="topbar-title">
+                    <h2 id="currentSectionTitle">Panel de Inicio</h2>
+                </div>
+                <div class="topbar-user">
+                    <span id="adminUsername">Admin</span>
+                    <div class="avatar"><i class="fa-solid fa-user"></i></div>
+                </div>
+            </header>
+
+            <div class="content-area">
+                <!-- Panel Inicio -->
+                <section id="panel-inicio" class="admin-panel active">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-church"></i></div>
+                            <div class="stat-info">
+                                <h4>Iglesias Registradas</h4>
+                                <h2 id="stat-iglesias">0</h2>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <div class="stat-info">
+                                <h4>Pastores</h4>
+                                <h2 id="stat-pastores">0</h2>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                            <div class="stat-info">
+                                <h4>Solicitudes Pendientes</h4>
+                                <h2 id="stat-solicitudes">0</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent-activity">
+                        <h3>Actividad Reciente</h3>
+                        <p>Las últimas actualizaciones aparecerán aquí.</p>
+                    </div>
+                </section>
+
+                <!-- Panel Iglesias -->
+                <section id="panel-iglesias" class="admin-panel">
+                    <div class="panel-header">
+                        <h3>Gestión de Iglesias</h3>
+                        <button class="btn-primary" id="btnNuevaIglesia"><i class="fa-solid fa-plus"></i> Nueva Iglesia</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre</th>
+                                    <th>Distrito</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-iglesias">
+                                <tr><td colspan="4">Cargando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Panel Noticias -->
+                <section id="panel-noticias" class="admin-panel">
+                    <div class="panel-header">
+                        <h3>Noticias y Eventos</h3>
+                        <button class="btn-primary" id="btnNuevaNoticia"><i class="fa-solid fa-plus"></i> Publicar Noticia</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="admin-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Título</th>
+                                    <th>Fecha</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody-noticias">
+                                <tr><td colspan="4">Cargando...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                
+                <!-- Otros paneles irían aquí (Pastores, Solicitudes, etc.) -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Script principal del dashboard -->
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
